@@ -1,16 +1,20 @@
 body {
-  font-family: $ff-titleSections;
+  font-family: $ff-descBrands;
   font-size: 1rem;
   line-height: 1.2;
+  color: #000000;
 
+  background-color: #c0c0c0;
+  background-image: url("../../images/bg-header1.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
 }
 
+*, *::before, *::after {
+  box-sizing: inherit;
+}
 html {
   box-sizing: border-box;
-}
-
-*, *:before, *:after {
-  box-sizing: inherit;
 }
 
 ul,
@@ -18,10 +22,33 @@ ol {
   list-style-type: none;
 }
 
+a {
+  text-decoration: none;
+}
+
+
 .clearfix {
   &:after {
     content: '';
     display: table;
     clear: both;
   }
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: 0;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }

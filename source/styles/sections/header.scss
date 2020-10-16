@@ -1,0 +1,40 @@
+.header__title {
+  display: none;
+}
+
+.header__inner {
+  display: flex;
+  flex-direction: row;
+  margin-top: 80px;
+  margin-bottom: 200px;
+
+}
+
+.header__inner div:last-child {
+  margin-left: auto;
+  margin-top: 0;
+}
+
+.search-form__collection__wrapper{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.header__search-form__input {
+  width: 65px;
+  height: 30px;
+  border: none;
+}
+
+.header__collection__button {
+  height: 30px;
+  border: none;
+  background: #ffffff;
+}
+
+.header__logo {
+  width: 158px;
+  height: 40px;
+}
+

@@ -1,0 +1,19 @@
+header.header
+  div.header__inner
+    h1.header__title Магазин "Big shop"
+
+    div.header__logo
+      div.header__logo__inner
+        a.header__logo__link(href="#")
+          img.header__logo__img(src="images/logo.png" width="160" height="40" alt="Логотип магазина Big Shop")
+
+    div.search-form__collection__wrapper
+      form.header__search-form.button.button--white.button--left(action="" method="get")
+        input.header__search-form__input(type="text" value="Search")
+        button.header__search-form__button(type="submit")
+          img.icon(src="images/icon/search.png" alt="Иконка поиска")
+
+
+      div.header__collection.button.button--white.button--right
+       button.header__collection__button Collection
+        img.header__collection_img(src="images/icon/drop.png" alt="Иконка выпадающего списка c коллекцией")

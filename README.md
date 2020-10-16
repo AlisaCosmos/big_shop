@@ -7,8 +7,8 @@
 4. Покажите все что умеете. Будет приветствоваться использование сборщиков webpack, gulp, jquery, react. Препроцессоров 
 css и все удобные штуки
 
-Скриншот приложения 
-![screenshot_test_shop](https://imgur.com/a/3CnMqPg)
+Скриншот приложения
+![screenshot_test_shop](https://imgur.com/2ycrhTt)
  imgur.com ресурс для загрузки скриншотов
 
 

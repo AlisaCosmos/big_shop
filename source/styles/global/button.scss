@@ -1,0 +1,53 @@
+.button {
+
+  display: inline-block;
+  border-radius: 45px;
+  box-shadow: 0px 5px 23.75px 1.25px rgba(189, 227, 239, 0.75);
+
+  padding: 10px 22px 7px;
+  text-align: center;
+  font-family: $ff-btn;
+  font-size: 14px;
+  cursor: pointer;
+
+  &--white {
+    color: #151515;
+    background-color: #ffffff;
+    box-shadow: 0px 5px 23.75px 1.25px rgba(189, 227, 239, 0.75);
+
+    transition: 0.3s ease-in-out;
+
+      &:hover {
+        box-shadow: 0px 20px 20px 0px rgba(189, 227, 239, 0.75);
+
+      }
+  }
+
+  &--left {
+    border-radius: 50px 0 0 50px;
+    width: 190px;
+    height: 65px
+
+  }
+
+  &--right {
+    border-radius: 0 50px 50px 0;
+    width: 190px;
+    height: 65px;
+
+  }
+
+  &--purple {
+    background-image: linear-gradient( 64deg, rgb(140, 132, 249) 0%, rgb(161,101,244) 100%);
+    box-shadow: 0px 5px 23.75px 1.25px rgba(240, 239, 254, 0.75);
+    width: 202px;
+    height: 60px;
+    color: #ffffff;
+    transition: opacity 0.3s;
+
+      &:hover {
+        opacity: 0.5;
+      }
+  }
+
+}
